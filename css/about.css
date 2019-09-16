@@ -72,72 +72,73 @@ h1, h2, h3, h4, h5 {
 }
 
 /* CSS STYLING */
+/* .head-container {
+  display: flex;
+  justify-content: space-around;
+  word-spacing: 40px;
+  padding: 1%;
+  margin: 1%;
+} */
 
-.navbar {
+/* .flex-content nav-bar {
   display: flex;
   justify-content: space-between;
-  justify-content: center;
-	font-size: 14px;
-	margin-top: 1.5%;
-  margin-left: 13%;
-  margin-right: 13%;
-  text-align: center;
-  width: 70%;
-}
+  width: 60%;
+  align-items: flex-end;
+  padding: 20px 2%;
+  font-size: 14px;
+} */
+/* 
+.logo {
+  align-self: center;
+  margin: 1px;
+  padding: 1px;
+} */
 
-.navbar img {
-  margin-top: 1%;
-}
-
-.navbar a {
+/* a {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: bold;
   text-decoration: none;
-  color: #3a3a3a;
-  margin-left: 5%;
-  width: 80%;
-}
+  color: black;
+  margin: 10px;
+  align-items: flex-end;
+} */
+/* 
+.header-image {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2%;
+ } */
+/* 
+.full-width {
+ margin-left: calc(-100vx / 2 + 500px / 2);
+ margin-right: calc(-100vx /2 + 500px / 2);
+} */
 
-.nav {
-  align-self: flex-end;
-}
-section.jumbo-img {
-  margin-left: 18%;
-  margin-top: 3%;
-  margin-bottom: 2%;
-}
-
-.jumbo-img img{
-  width: 77%;
-}
-
-.top-border .section-border {
+/* .top-border .section-border {
   margin-top: 2%;
   margin-left: 17.8%;
   margin-right: 18.5%;
-}
-
+} */
 /* END OF NAV BAR */
 
-/* ABOUT */
+/* START OF BODY */
+/* .container {
+  width: 800px;
+  margin: 0 auto;
+} */
 
-.about-section {
-  display:flex;
-  justify-content: flex-center;
+/* ABOUT */
+/* .about-section {
+  display: block;
   margin-top: 2%;
   margin-bottom: 2%;
-  margin-left: 20%;
-  width: 70%;
-}
-
-.about-section .text-container {
-  align-self: center;
-  width: 60%;
-  padding: 0 1%;
-  padding-bottom: 20px;  
-}
+  margin-left: 2%;
+  width: 90%;
+} */
 
 /* START OF TOP CONTENT */
-
-h1 {
+/* h1 {
   margin-left: 2%;
 }
 
@@ -146,11 +147,10 @@ p {
   margin: auto;
   border: auto;
   height: 100%;
-}
+} */
 
 /* START OF MIDDLE CONTENT */
-
-.middle-contain {
+/* .middle-contain {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
@@ -159,6 +159,7 @@ p {
   margin-top: 1%;
   height: 91%;
   width: 60.5%;
+  border: 2px solid black;
 }
 
 .text-container img {
@@ -167,10 +168,6 @@ p {
 
 .text-container h1{
   margin-top: 4%;
-}
-
-text-container .learn-more{
-  text-decoration: none;
 }
 
 .middle-contain .text-container {
@@ -183,58 +180,45 @@ text-container .learn-more{
   text-align: justify;
 }
 
-.bottom-border .text-container {
-  border-bottom: 2px dotted black;
-  margin-top: 5%;
-  width: 110%;
-  }
-
-  .text-container .middle-contain {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+.text-container .middle-contain {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+  border-bottom: 1px dashed black;
 }
 
 .text-container {
-    width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
+  width: 48%;
+  padding: 0 1%;
+  padding-bottom: 20px;  
 }
 
 .button {
-  text-align: center;
-  vertical-align: cetner;
-  padding: 6px 12px;
+  text-align: left;
+  vertical-align: center;
+  padding: 10px 25px;
   line-height: 1.4;
-  border-radius: 4px;
+  border-radius: 5px;
 }
 
-/* BOTTOM */
-
-.bottom-container {
-  display: flex;
+/* BOTTOM SECTION */
+/* .bottom-text-content {
+  display: block;
   justify-content: space-around;
   padding: 2%;
   margin: 2%;
   width: 100%;
-}
+} */
 
-.bottom-container .bottom-text-content {
-  height: 100%;
-  width: 100%;
-  padding-bottom: 3%;
-
-  
 /* FOOTER */
-
-footer {
+/* 
+.color {
   width: 100%;
   background: black;
 }
 
-footer nav {
+.color nav {
   width: 60%;
   display: flex;
   justify-content: space-between;
@@ -243,8 +227,8 @@ footer nav {
   font-size: 14px;
 }
 
-footer nav a {
+.color nav a {
   color: white;
   text-decoration: none;
-}
+} */
 

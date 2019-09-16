@@ -68,6 +68,7 @@ h1, h2, h3, h4, h5 {
     font-family: 'Rubik', sans-serif;
 }
 
+/* CSS SYLE */
 .head-container {
     display: flex;
     justify-content: space-around;
@@ -80,14 +81,13 @@ h1, h2, h3, h4, h5 {
     display: flex;
     justify-content: space-between;
     width: 60%;
-    align-items: center;
+    align-items: flex-end;
     padding: 20px 2%;
     font-size: 14px;
 }
 
-
 .logo {
-    align-self: flex-end;
+    align-self: center;
     margin: 1px;
     padding: 1px;
 }
@@ -104,36 +104,59 @@ a {
 .header-image {
     display: flex;
     justify-content: center;
+    padding-bottom: 2%;
    }
 
-.full-width {
-   margin-left: calc(-100vx / 2 + 500px / 2);
-   margin-right: calc(-100vx /2 + 500px / 2);
-}
-
+.top-border .section-border {
+    margin-top: 2%;
+    margin-left: 17.8%;
+    margin-right: 18.5%;
+  }
+  /* END OF NAV BAR */
 
 p {
     line-height: 1.4;
 }
 
+/* BODY STARTS HERE */
 .container {
     width: 800px;
     margin: 0 auto;
 }
-
+/* ABOUT */
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
+    padding-bottom: 2%;
     border-bottom: 1px dashed black;
 }
 
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
 }
+
+.about-content {
+    Display: block;
+    margin-bottom: 20px;
+    padding-bottom: 2%;
+    border-bottom: 1px dashed black;
+}
+}
+h1 {
+    /* margin-left: 20%; */
+    border: 2px solid green;
+  }
+  
+  p {
+    width: 100%;
+    margin: auto;
+    border: auto;
+    height: 100%;
+  }
 
 /* Boxes */
 
@@ -207,7 +230,67 @@ p {
     background: dodgerblue;
 }
 
+/* MIDDLE-CONTAIN */
+
+.middle-contain {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-left: 18%;
+    margin-bottom: 2%;
+    margin-top: 1%;
+    height: 91%;
+    width: 60.5%;
+  }
+  
+  .text-container img {
+    width: 112%;
+  }
+  
+  .text-container h1{
+    margin-top: 4%;
+  }
+  
+  .middle-contain .text-container {
+    padding: 20px;
+    width: 48%;
+    height: 30%;
+  }
+  
+  .middle-contain .text-container h1, p, a {
+    text-align: justify;
+  }
+  
+  .text-container .middle-contain {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+  }
+  
+  .text-container {
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+  }
+  
+  .button {
+    text-align: left;
+    vertical-align: center;
+    padding: 10px 25px;
+    line-height: 1.4;
+    border-radius: 5px;
+  }
+  
 /* Bottom */
+.bottom-text-content {
+    display: block;
+    justify-content: space-around;
+    padding: 2%;
+    margin: 2%;
+    width: 100%;
+  } 
 
 .bottom-content {
     display: flex;
