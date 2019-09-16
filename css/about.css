@@ -131,19 +131,20 @@ a {
   border-bottom: 1px dash;
 }
 
+/* 
 .top-contain {
   display: flex;
   justify-content: space-around;
   padding: 2%;
   margin: 2%;
-  width: 100%;
-}
+  width: 100%; */
 
-.top-contain .top-text-content {
-  height: 100%;
-  width: 100%;
-  padding-bottom: 3%;
-  border-bottom: 1px dashed black;
+
+.top-text-content {
+  width: 59%;
+  margin: 2% 0% 2% 20%;
+  /* border-bottom: 1px dashed black; */
+}
 
 p {
   width: 100%;
@@ -176,6 +177,12 @@ button {
   border-radius: 4px;
   padding: 10px 35px;
   border: 2px solid black;
+}
+
+.bottom-border .content-border {
+  border-bottom: 2px dotted black;
+  margin-top: 5%;
+  width: 110%;
 }
 
 /* BOTTOM */
