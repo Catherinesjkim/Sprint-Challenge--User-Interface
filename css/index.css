@@ -49,6 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
+    border: 2px solid red;
 }
 
 html, body {
@@ -60,6 +61,43 @@ h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border: 2px solid red;
+}
+
+header nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+.nav {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+
+.logo {
+    align-items: flex-start;
+}
+
+a {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+    align-items: flex-end;
+    border: 2px solid red;
 }
 
 p {
