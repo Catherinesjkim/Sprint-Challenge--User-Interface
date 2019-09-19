@@ -34,13 +34,40 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+    I would say that the semantic HTML elements are important because they clearly describe it smeaning in a human and machine readable way. They accurately describe the purpose of the element and the type of content that is inside them. For example, header, footer and article tags. 
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+    display: block means that the element is displayed as a block, as paragraphs and headers have always been. A block has some whitespace above and below it and tolerates no HTML elements next to it. Takes up the full width available, with a new line before and after. Examples are div, h1, p, and hr HTML tags. 
+
+    display: inline means that the element is displayed inline, inside the current block on the same line. Only when it's between two blocks does the element form an 'anonumous block', that however has the smalles possible width. There's no line break before and after the element and they don't break up the flow of a document. Examples are a, span, strong, and em HTML tags. 
 
 3. What are the 4 areas of the box model?
 
+    Every box is composed of four parts, defined by its respective edges: Content edge, Padding edge, Border edge, and Margin edge. 
+
+    1) The content are is bounded by the content edge and contains the "real" content of the element, such as text, an image, or a video player. Its dimensions are the content width and the content height. It often has a background color or image.  
+
+    2) Padding area is bounded by the padding edge and extends the content area to include the element's padding. Its dimensions are the padding-box width and the height. 
+
+    3) Border area is bounded by the border edge and extends the padding are to include the element's borders. Its dimensions are the border-box width and the height. 
+
+    4) Margin area is bounded by the margin edge and extends the border area to include an empty are used to separate the element from its neighbors. Its dimensions are the margin-box width and the height. 
+
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+  We use the align-items property to center/align our box/item on the cross axis, which is the block axis running vertically. 
+
 5. Explain why git is valuable to a team of developers.
+
+  Using git is valuable to a team of developers because it allows you to revert the code files back to their previous state. 
+  
+  Recall and revert the entire project back to its previous state. Compare code changes over specific durations of time by using "diff". 
+  
+  Find who las modified a piece of code that might be causing an issue or a problem. 
+  
+  Who introduced a particular issue and when. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 

@@ -1,0 +1,234 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 100%;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* CSS STYLES */
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-size: 18px;
+    margin: 15px;
+    font-family: 'Rubik', sans-serif;
+    letter-spacing: 1px;
+}
+
+/* CSS STYLING */
+/* .head-container {
+  display: flex;
+  justify-content: space-around;
+  word-spacing: 40px;
+  padding: 1%;
+  margin: 1%;
+} */
+
+/* .flex-content nav-bar {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  align-items: flex-end;
+  padding: 20px 2%;
+  font-size: 14px;
+} */
+/* 
+.logo {
+  align-self: center;
+  margin: 1px;
+  padding: 1px;
+} */
+
+/* a {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  margin: 10px;
+  align-items: flex-end;
+} */
+/* 
+.header-image {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2%;
+ } */
+/* 
+.full-width {
+ margin-left: calc(-100vx / 2 + 500px / 2);
+ margin-right: calc(-100vx /2 + 500px / 2);
+} */
+
+/* .top-border .section-border {
+  margin-top: 2%;
+  margin-left: 17.8%;
+  margin-right: 18.5%;
+} */
+/* END OF NAV BAR */
+
+/* START OF BODY */
+/* .container {
+  width: 800px;
+  margin: 0 auto;
+} */
+
+/* ABOUT */
+/* .about-section {
+  display: block;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: 2%;
+  width: 90%;
+} */
+
+/* START OF TOP CONTENT */
+/* h1 {
+  margin-left: 2%;
+}
+
+p {
+  width: 100%;
+  margin: auto;
+  border: auto;
+  height: 100%;
+} */
+
+/* START OF MIDDLE CONTENT */
+/* .middle-contain {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin-left: 18%;
+  margin-bottom: 2%;
+  margin-top: 1%;
+  height: 91%;
+  width: 60.5%;
+  border: 2px solid black;
+}
+
+.text-container img {
+  width: 112%;
+}
+
+.text-container h1{
+  margin-top: 4%;
+}
+
+.middle-contain .text-container {
+  padding: 20px;
+  width: 48%;
+  height: 30%;
+}
+
+.middle-contain .text-container h1, p, a {
+  text-align: justify;
+}
+
+.text-container .middle-contain {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+  border-bottom: 1px dashed black;
+}
+
+.text-container {
+  width: 48%;
+  padding: 0 1%;
+  padding-bottom: 20px;  
+}
+
+.button {
+  text-align: left;
+  vertical-align: center;
+  padding: 10px 25px;
+  line-height: 1.4;
+  border-radius: 5px;
+}
+
+/* BOTTOM SECTION */
+/* .bottom-text-content {
+  display: block;
+  justify-content: space-around;
+  padding: 2%;
+  margin: 2%;
+  width: 100%;
+} */
+
+/* FOOTER */
+/* 
+.color {
+  width: 100%;
+  background: black;
+}
+
+.color nav {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 2%;
+  font-size: 14px;
+}
+
+.color nav a {
+  color: white;
+  text-decoration: none;
+} */
+
